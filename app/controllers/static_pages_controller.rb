@@ -28,9 +28,17 @@ end
 @final << User.find_by_id(auteur).first_name
 end
 
+
 end
 
+def gossips
+	#@gossips = Gossip.find(params[:id])
+	
 
+
+@gossips = Gossip.find_by_id(params[:id])
+@user = User.find_by_id(@gossips.user_id)
+end
 
 
 end

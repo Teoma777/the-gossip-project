@@ -4116,3 +4116,718 @@ Processing by StaticPagesController#acceuil as HTML
 Completed 200 OK in 64ms (Views: 17.5ms | ActiveRecord: 2.5ms)
 
 
+Started GET "/gossips/5" for ::1 at 2019-04-29 16:27:26 +0200
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/a777/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"5"}
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (1.2ms)
+Completed 200 OK in 208ms (Views: 201.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gossips/5" for ::1 at 2019-04-29 16:28:32 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mGossip Load (0.5ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:34
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (0.4ms)
+Completed 200 OK in 58ms (Views: 25.9ms | ActiveRecord: 8.3ms)
+
+
+Started GET "/gossips/5" for ::1 at 2019-04-29 16:28:51 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mGossip Load (0.6ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:34
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (0.3ms)
+Completed 200 OK in 29ms (Views: 23.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/gossips/5" for ::1 at 2019-04-29 16:29:39 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mGossip Load (0.3ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:34
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (0.5ms)
+Completed 200 OK in 35ms (Views: 31.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/gossips/5" for ::1 at 2019-04-29 16:30:21 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mGossip Load (0.5ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:34
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (0.5ms)
+Completed 200 OK in 42ms (Views: 36.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/gossips/7" for ::1 at 2019-04-29 16:30:33 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.3ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:34
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (0.3ms)
+Completed 200 OK in 28ms (Views: 24.2ms | ActiveRecord: 0.3ms)
+
+
+  [1m[36mGossip Load (0.4ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Started GET "/gossips/7" for ::1 at 2019-04-29 16:35:46 +0200
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/a777/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.4ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:34
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (1.5ms)
+Completed 200 OK in 214ms (Views: 181.7ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/gossips/7" for ::1 at 2019-04-29 16:58:34 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (2.1ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:34
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (4.6ms)
+Completed 200 OK in 183ms (Views: 166.2ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/" for ::1 at 2019-04-29 16:58:39 +0200
+Processing by StaticPagesController#acceuil as HTML
+  [1m[36mGossip Load (1.4ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/controllers/static_pages_controller.rb:21
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  Rendering static_pages/acceuil.erb within layouts/application
+  Rendered static_pages/acceuil.erb within layouts/application (0.9ms)
+Completed 200 OK in 100ms (Views: 22.3ms | ActiveRecord: 13.2ms)
+
+
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:00:34 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (1.0ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:34
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (3.2ms)
+Completed 200 OK in 130ms (Views: 102.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2019-04-29 17:00:44 +0200
+Processing by StaticPagesController#acceuil as HTML
+  [1m[36mGossip Load (0.6ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/controllers/static_pages_controller.rb:21
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:28
+  Rendering static_pages/acceuil.erb within layouts/application
+  Rendered static_pages/acceuil.erb within layouts/application (0.7ms)
+Completed 200 OK in 69ms (Views: 41.1ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:01:02 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.4ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:34
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (0.6ms)
+Completed 200 OK in 29ms (Views: 25.4ms | ActiveRecord: 0.4ms)
+
+
+  [1m[36mGossip Load (1.0ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mGossip Load (0.7ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:05:03 +0200
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/a777/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.4ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:34
+  Rendering static_pages/gossips.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/static_pages/gossips.erb:9
+  Rendered static_pages/gossips.erb within layouts/application (15.3ms)
+Completed 200 OK in 209ms (Views: 175.9ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:05:31 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.6ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:34
+  Rendering static_pages/gossips.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/static_pages/gossips.erb:9
+  Rendered static_pages/gossips.erb within layouts/application (3.6ms)
+Completed 200 OK in 39ms (Views: 32.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:06:28 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.7ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:37
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (0.7ms)
+Completed 200 OK in 60ms (Views: 33.2ms | ActiveRecord: 10.9ms)
+
+
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:06:30 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.6ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:37
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 32.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:06:48 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.6ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:38
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (0.5ms)
+Completed 200 OK in 80ms (Views: 37.1ms | ActiveRecord: 12.7ms)
+
+
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:07:30 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.4ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:38
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (0.6ms)
+Completed 200 OK in 61ms (Views: 40.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:08:25 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (1.0ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:38
+  Rendering static_pages/gossips.erb within layouts/application
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/static_pages/gossips.erb:9
+  Rendered static_pages/gossips.erb within layouts/application (73.2ms)
+Completed 500 Internal Server Error in 114ms (ActiveRecord: 7.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `first_name' for nil:NilClass):
+     6: <p>	CONTENT <%= @gossips.content %> </p>
+     7: <p>TITLE 	  <%= @gossips.title %> </p>	   
+     8: <p> DATE <%= @gossips.updated_at %> </p>
+     9: <p> LIEN VERS AUTEUR <% User.find_by_id(@gg).first_name
+    10:  %> </p>
+    11: 
+    12: </body>
+  
+app/views/static_pages/gossips.erb:9:in `_app_views_static_pages_gossips_erb___2984452904597884293_70152527460980'
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:08:41 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.4ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:38
+  Rendering static_pages/gossips.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/static_pages/gossips.erb:9
+  Rendered static_pages/gossips.erb within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `last_name' for nil:NilClass):
+     6: <p>	CONTENT <%= @gossips.content %> </p>
+     7: <p>TITLE 	  <%= @gossips.title %> </p>	   
+     8: <p> DATE <%= @gossips.updated_at %> </p>
+     9: <p> LIEN VERS AUTEUR <% User.find_by_id(@gg).last_name
+    10:  %> </p>
+    11: 
+    12: </body>
+  
+app/views/static_pages/gossips.erb:9:in `_app_views_static_pages_gossips_erb___2984452904597884293_70152526963460'
+  [1m[36mGossip Load (0.5ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:12:48 +0200
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/a777/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.4ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:39
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (11.5ms)
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 9.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `first_name' for nil:NilClass):
+     6: <p>	CONTENT <%= @gossips.content %> </p>
+     7: <p>TITLE 	  <%= @gossips.title %> </p>	   
+     8: <p> DATE <%= @gossips.updated_at %> </p>
+     9: <p> LIEN VERS AUTEUR <% @ggg.first_name
+    10: 
+    11:  %> </p>
+    12: 
+  
+app/views/static_pages/gossips.erb:9:in `_app_views_static_pages_gossips_erb___341709343185920860_70193865337080'
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:13:18 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.2ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:39
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `last_name' for nil:NilClass):
+     6: <p>	CONTENT <%= @gossips.content %> </p>
+     7: <p>TITLE 	  <%= @gossips.title %> </p>	   
+     8: <p> DATE <%= @gossips.updated_at %> </p>
+     9: <p> LIEN VERS AUTEUR <% @ggg.last_name
+    10: 
+    11:  %> </p>
+    12: 
+  
+app/views/static_pages/gossips.erb:9:in `_app_views_static_pages_gossips_erb___341709343185920860_70193864319280'
+  [1m[36mGossip Load (0.4ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:16:06 +0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/a777/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.5ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:39
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (11.3ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 5.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `last_name' for nil:NilClass):
+     6: <p>	CONTENT <%= @gossips.content %> </p>
+     7: <p>TITLE 	  <%= @gossips.title %> </p>	   
+     8: <p> DATE <%= @gossips.updated_at %> </p>
+     9: <p> LIEN VERS AUTEUR <% @ggg.last_name %> </p>
+    10: 
+    11: </body>
+    12: </html>
+  
+app/views/static_pages/gossips.erb:9:in `_app_views_static_pages_gossips_erb___1748925534417005524_70204912091580'
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:16:32 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.3ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:39
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.3ms)
+
+
+  
+SyntaxError (/Users/a777/Desktop/CODE/THP/WEEK5/the-gossip-project/app/views/static_pages/gossips.erb:13: syntax error, unexpected '<', expecting keyword_end
+</body>
+^
+/Users/a777/Desktop/CODE/THP/WEEK5/the-gossip-project/app/views/static_pages/gossips.erb:14: unknown regexp options - htl
+/Users/a777/Desktop/CODE/THP/WEEK5/the-gossip-project/app/views/static_pages/gossips.erb:18: unterminated string meets end of file
+          end
+             ^
+/Users/a777/Desktop/CODE/THP/WEEK5/the-gossip-project/app/views/static_pages/gossips.erb:18: syntax error, unexpected end-of-input, expecting keyword_end
+          end
+             ^):
+  
+app/views/static_pages/gossips.erb:13: syntax error, unexpected '<', expecting keyword_end
+app/views/static_pages/gossips.erb:14: unknown regexp options - htl
+app/views/static_pages/gossips.erb:18: unterminated string meets end of file
+app/views/static_pages/gossips.erb:18: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:16:43 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.3ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:39
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.3ms)
+
+
+  
+SyntaxError (/Users/a777/Desktop/CODE/THP/WEEK5/the-gossip-project/app/views/static_pages/gossips.erb:14: syntax error, unexpected '<', expecting end-of-input
+</body>
+^):
+  
+app/views/static_pages/gossips.erb:14: syntax error, unexpected '<', expecting end-of-input
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:17:01 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.3ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:39
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (0.5ms)
+Completed 200 OK in 224ms (Views: 220.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:17:32 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.7ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:39
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (0.6ms)
+Completed 200 OK in 66ms (Views: 29.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:18:02 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.2ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:38
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (2.9ms)
+Completed 200 OK in 66ms (Views: 33.2ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:18:25 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.8ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:38
+  Rendering static_pages/gossips.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/static_pages/gossips.erb:10
+  Rendered static_pages/gossips.erb within layouts/application (23.5ms)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 12.3ms)
+
+
+  
+ActionView::Template::Error (undefined method `last_name' for nil:NilClass):
+     7: <p>TITLE 	  <%= @gossips.title %> </p>	   
+     8: <p> DATE <%= @gossips.updated_at %> </p>
+     9: <p> LIEN VERS AUTEUR <% 
+    10: User.find_by_id(@gg).last_name
+    11: 
+    12:  %> </p>
+    13: 
+  
+app/views/static_pages/gossips.erb:10:in `_app_views_static_pages_gossips_erb___1748925534417005524_70204961964300'
+  [1m[36mGossip Load (0.4ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:25:29 +0200
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/a777/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.4ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:35
+  [1m[36mCACHE Gossip Load (0.0ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:39
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:41
+  Rendering static_pages/gossips.erb within layouts/application
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/views/static_pages/gossips.erb:10
+  Rendered static_pages/gossips.erb within layouts/application (1.9ms)
+Completed 200 OK in 220ms (Views: 166.0ms | ActiveRecord: 8.6ms)
+
+
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:27:00 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.4ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:35
+  [1m[36mCACHE Gossip Load (0.0ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:39
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 8.8ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/static_pages_controller.rb:41:in `gossips'
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:28:15 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.7ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:35
+  [1m[36mCACHE Gossip Load (0.0ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:39
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.7ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/static_pages_controller.rb:41:in `gossips'
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:28:35 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (1.1ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:35
+  [1m[36mCACHE Gossip Load (0.0ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:39
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 8.2ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/static_pages_controller.rb:41:in `gossips'
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:28:41 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.3ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:35
+  [1m[36mCACHE Gossip Load (0.0ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:39
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 3.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `first_name' for nil:NilClass):
+    20: <p> LIEN VERS AUTEUR <% 
+    21: puts "XXXXX #{params} XXX"
+    22: 
+    23:  @user.first_name
+    24: 
+    25:  %> </p>
+    26: 
+  
+app/views/static_pages/gossips.erb:23:in `_app_views_static_pages_gossips_erb___3251531709539141314_70317394825120'
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:29:23 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.4ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:39
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 8.4ms)
+
+
+  
+NoMethodError (undefined method `user_id' for nil:NilClass):
+  
+app/controllers/static_pages_controller.rb:40:in `gossips'
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:29:42 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.2ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:39
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (0.7ms)
+Completed 200 OK in 57ms (Views: 34.7ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:30:40 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.8ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:39
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (12.3ms)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 1.3ms)
+
+
+  
+ActionView::Template::Error (undefined method `first_name' for nil:NilClass):
+    20: <p> LIEN VERS AUTEUR <% 
+    21: puts "XXXXX #{params} XXX"
+    22: 
+    23: @user.first_name
+    24:  %> </p>
+    25: 
+    26: </body>
+  
+app/views/static_pages/gossips.erb:23:in `_app_views_static_pages_gossips_erb___3251531709539141314_70317388265660'
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:31:12 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.5ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:39
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (7.2ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `first_name' for nil:NilClass):
+    21: puts "XXXXX #{params} XXX"
+    22: puts "YYY #{@user} YYY"
+    23: 
+    24: @user.first_name
+    25:  %> </p>
+    26: 
+    27: </body>
+  
+app/views/static_pages/gossips.erb:24:in `_app_views_static_pages_gossips_erb___3251531709539141314_70317406361900'
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:31:42 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.3ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:39
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:40
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (3.3ms)
+Completed 200 OK in 107ms (Views: 42.7ms | ActiveRecord: 12.7ms)
+
+
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:32:16 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.8ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:39
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:40
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (0.7ms)
+Completed 200 OK in 46ms (Views: 38.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:32:32 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (1.3ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:39
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:40
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (1.9ms)
+Completed 200 OK in 54ms (Views: 43.7ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:33:22 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.6ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:39
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:40
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (0.8ms)
+Completed 200 OK in 49ms (Views: 41.6ms | ActiveRecord: 0.8ms)
+
+
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:35:10 +0200
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/a777/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.4ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:39
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:40
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (9.7ms)
+Completed 500 Internal Server Error in 74ms (ActiveRecord: 7.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `first' for #<User:0x00007fbaaba6f0a0>):
+    18: 
+    19: 
+    20: <p> LAST NAME <%= "#{@user.last_name}" %> </p>
+    21: <p> FIRST NAME <%= "#{@user.first}" %> </p>
+    22: <p> AGE <%= "#{@user.age}" %> </p>
+    23: <p> DESCRIPTION <%= "#{@user.description}" %> </p>
+    24: 
+  
+app/views/static_pages/gossips.erb:21:in `_app_views_static_pages_gossips_erb___2288239078146144859_70219860242100'
+Started GET "/gossips/7" for ::1 at 2019-04-29 17:35:21 +0200
+Processing by StaticPagesController#gossips as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGossip Load (0.5ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:39
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:40
+  Rendering static_pages/gossips.erb within layouts/application
+  Rendered static_pages/gossips.erb within layouts/application (0.8ms)
+Completed 200 OK in 190ms (Views: 184.7ms | ActiveRecord: 0.7ms)
+
+
