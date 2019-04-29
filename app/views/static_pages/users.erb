@@ -2,17 +2,16 @@
 <head>
 	<title>
 		Bonjour
-
-
 	</title>
 </head>
 <body>
-<p>
-<p> LAST NAME <%= "#{@user.last_name}" %> </p> 
-<p> FIRST NAME <%= "#{@user.first_name}" %> </p>
-<p> AGE <%= "#{@user.age}" %> </p>
-<p> DESCRIPTION <%= "#{@user.description}" %> </p>
 
-</p>
+<center>
+	<p> <%= "#{@user.last_name}" %> <%= "#{@user.first_name}" %></p> 
+
+	<p> <%= "#{@user.age}" %> Ans </p>
+	<p> DESCRIPTION : <%= "#{@user.description}" %> </p>
+</center>
+
 </body>
 </html>

@@ -2,28 +2,18 @@
 <head>
 	<title></title>
 </head>
-<body>
-<p>	CONTENT <%= @gossips.content %> </p>
-<p>TITLE 	  <%= @gossips.title %> </p>	   
-<p> DATE <%= @gossips.updated_at %> </p>
-
-
-
-
-
-
-
-
-
-
-
-<p> LAST NAME <%= "#{@user.last_name}" %> </p> 
-<p> FIRST NAME <%= "#{@user.first_name}" %> </p>
-<p> AGE <%= "#{@user.age}" %> </p>
-<p> DESCRIPTION <%= "#{@user.description}" %> </p>
-
-
+<center>
+	
+	<body>
+<b><h2>  "<%= @gossips.title %>" </h2></b>
+<p><i><%= @gossips.content %></i></p>
+<br>
+<p><%= @gossips.updated_at %></p>
+<br>
+<p> by <%= "#{@user.last_name}"%> <%= "#{@user.first_name}"%>, <%= "#{@user.age}" %> ans</p> 
 <p>PAGE DE L'AUTEUR: <%= link_to "clique ici", users_path(@user.id) %> </p>
+
+</center>
 
 </body>
 </html>
