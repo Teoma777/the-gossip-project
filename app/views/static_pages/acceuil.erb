@@ -1,0 +1,36 @@
+<html>
+<head>
+	<title>
+		THE GOSSIP PROJECT
+	</title>
+</head>
+<body>
+	<h1>Bienvenur sur THE GOSSIP PROJECT</h1>
+
+
+<p>	Bonjour voici les 10 derniers potins  </p> <br>
+
+  <%= 
+i = 1 
+@t = []
+while i < 11 do 
+@t << "le potin '#{@texte[i]}' a été écrit par #{@final[i]}."
+i +=1 
+end
+    %>
+
+
+<p><%= @t[1] %></p>
+<p><%= @t[2] %></p>
+<p><%= @t[3] %></p>
+<p><%= @t[4] %></p>
+<p><%= @t[5] %></p>
+<p><%= @t[6] %></p>
+<p><%= @t[7] %></p>
+<p><%= @t[8] %></p>
+<p><%= @t[9] %></p>
+<p><%= @t[10] %></p>
+
+
+</body>
+</html>

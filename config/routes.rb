@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 get '/team', to: 'static_pages#team'
 get '/contact', to: 'static_pages#contact'
 get '/users/:id', to: 'static_pages#users'
+get '/', to: 'static_pages#acceuil'
 
 
 end
