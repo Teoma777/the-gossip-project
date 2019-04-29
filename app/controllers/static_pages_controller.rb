@@ -8,6 +8,12 @@ def contact
 	
 end
 
+def welcome
+		    @user = User.find(params[:id])
+
+end
+
+
 
 def users
 	    @user = User.find(params[:id])
@@ -24,18 +30,12 @@ def acceuil
 end
 @final = []
 @auteur.each do |auteur|
-
 @final << User.find_by_id(auteur).first_name
+
 end
-
-
 end
 
 def gossips
-	#@gossips = Gossip.find(params[:id])
-	
-
-
 @gossips = Gossip.find_by_id(params[:id])
 @user = User.find_by_id(@gossips.user_id)
 end

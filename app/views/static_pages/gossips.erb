@@ -17,10 +17,13 @@
 
 
 
-<p> LAST NAME <%= "#{@user.last_name}" %> </p>
+<p> LAST NAME <%= "#{@user.last_name}" %> </p> 
 <p> FIRST NAME <%= "#{@user.first_name}" %> </p>
 <p> AGE <%= "#{@user.age}" %> </p>
 <p> DESCRIPTION <%= "#{@user.description}" %> </p>
+
+
+<p>PAGE DE L'AUTEUR: <%= link_to "clique ici", users_path(@user.id) %> </p>
 
 </body>
 </html>
